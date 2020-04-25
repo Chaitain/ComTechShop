@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter Bootstrap shopping cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <!-- Customize styles -->
+    <link href="style.css" rel="stylesheet"/>
+    <!-- font awesome styles -->
+	<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+		<!--[if IE 7]>
+			<link href="css/font-awesome-ie7.min.css" rel="stylesheet">
+		<![endif]-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+  </head>
+<body>
+<!-- 
+	Upper Header Section 
+-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="topNav">
+		<div class="container">
+			<div class="alignL">
+				<div class="pull-right socialNw">
+					<a href="https://twitter.com"><span class="icon-twitter"></span></a>
+					<a href="https://www.facebook.com/"><span class="icon-facebook"></span></a>
+					<a href="https://www.youtube.com/"><span class="icon-youtube"></span></a>
+					<a href="https://www.instagram.com/"><span class="icon-instagram"></span></a>
+				</div>
+				<a href="index.html"> <span class="icon-home"></span> Home</a>  
+				<a class="" href="register.html"><span class="icon-edit"></span> Free Register </a> 
+				<a href="contact.html"><span class="icon-envelope"></span> Contact us</a>
+				<a href="cart.html"><span class="icon-shopping-cart"></span> 2 Item(s) - <span class="badge badge-warning"> Php 23,500</span></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--
+Lower Header Section 
+-->
+<div class="container">
+<div id="gototop"> </div>
+<header id="header">
+<div class="row">
+	<div class="span4">
+	<h1>
+	<a class="logo" href="index.html">
+		<img src="assets/img/logo.jpg" alt="comtech shop">
+	</a>
+	</h1>
+	</div>
+	<div class="span4"> </div>
+</div>
+</header>
+
+<!--
+Navigation Bar Section 
+-->
+<div class="navbar">
+	  <div class="navbar-inner">
+		<div class="container">
+		  <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </a>
+		  <div class="nav-collapse">
+			<ul class="nav">
+			<li class="active"><a href="index.html">Home	</a></li>
+			<li class=""><a href="All products.html">All products</a></li>	
+		    <li class=""><a href="about_us.html">About us</a></li>
+			</ul>
+			<form action="#" class="navbar-search pull-left">
+			  <input type="text" placeholder="Search" class="search-query span2">
+			</form>
+			<ul class="nav pull-right">
+			<li class="dropdown">
+				<a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="icon-lock"></span> Login <b class="caret"></b></a>
+				<div class="dropdown-menu">
+				<form class="form-horizontal loginFrm">
+				  <div class="control-group">
+					<input type="text" class="span2" id="inputEmail" placeholder="Email">
+				  </div>
+				  <div class="control-group">
+					<input type="password" class="span2" id="inputPassword" placeholder="Password">
+				  </div>
+				   <div class="control-group">
+					<a href="forgot_password.html">Forgot Password?</a>
+					<br>
+					<button type="submit" class="shopBtn btn-block">Sign in</button>
+				  </div>
+				</form>
+				</div>
+			</li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+<!-- 
+Body Section 
+-->
+	<div class="row">
+<div id="sidebar" class="span3">
+<div class="well well-small">
+	<ul class="nav nav-list">
+		<li><a href="Cpu.html"><span class="icon-chevron-right"></span>CPU Case</a></li>
+		<li><a href="Monitors.html"><span class="icon-chevron-right"></span>Monitors</a></li>
+		<li><a href="Processors.html"><span class="icon-chevron-right"></span>Processors</a></li>
+		<li><a href="Mousepads.html"><span class="icon-chevron-right"></span>Mouse pads</a></li>
+		<li><a href="Mouse.html"><span class="icon-chevron-right"></span>Mouse</a></li>
+		<li><a href="Keyboards.html"><span class="icon-chevron-right"></span>Keyboards</a></li>
+		<li><a href="Headset.html"><span class="icon-chevron-right"></span>Headsets</a></li>
+		<li style="border:0"> &nbsp;</li>
+		<li> </li>
+	</ul>
+</div>
+
+			  <div class="well well-small alert alert-warning cntr">
+				  <h2>50% Discount</h2>
+				  <p> 
+					 only valid for online order. <br><br><a class="defaultBtn" href="#">Click here </a>
+				  </p>
+			  </div>
+			  <div class="well well-small" ><a href="#"><img src="assets/img/paypal.jpg" alt="payment method paypal"></a></div>
+<br>
+			<br>
+			<ul class="nav nav-list promowrapper">
+			
+			<li style="border:0"> &nbsp;</li>
+			<li> </li>
+			<li style="border:0"> &nbsp;</li>
+			<li> </li>
+		  </ul>
+
+	</div>
+	<div class="span9">
+<!-- 
+New Products
+-->
+	<div class="well well-small">
+	  <h3>Keyboards</h3>
+	  <div class="row-fluid">
+		  <ul class="thumbnails">
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/K57 RGB WIRELESS Gaming Keyboard (EU).png" alt="">
+				<h1><span id="product-name2"></span></h1>
+				<h1><span id="product-name"></span></h1>
+				
+				<div class="caption cntr">
+				  <p>K57 RGB WIRELESS Gaming Keyboard<br>
+			      </p>
+				  <p><strong> Php 7,800</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/K63 Wireless Special Edition Mechanical Gaming Keyboard — Ice Blue LED — CHERRY® MX Red.png" alt="">
+				<div class="caption cntr">
+				  <p>K63 Wireless Special Edition Mechanical Gaming Keyboard — Ice Blue LED</p>
+				  <p><strong> Php 4,750</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/K68 Mechanical Gaming Keyboard — Red LED — CHERRY® MX Red (TH).png" alt="">
+				<div class="caption cntr">
+				  <p>K68 Mechanical Gaming Keyboard — Red LED — CHERRY® MX Red</p>
+				  <p><strong> Php 3,600</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+		  </ul>
+		</div>
+	<div class="row-fluid">
+		  <ul class="thumbnails">
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/K70 RGB MK.2 Mechanical Gaming Keyboard — CHERRY® MX Red (GR).png" alt="">
+				<div class="caption cntr">
+				  <p>K70 RGB MK.2 Mechanical Gaming Keyboard</p>
+				  <p><strong> Php 3,200</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/K70 RGB MK.2 SE Mechanical Gaming Keyboard — CHERRY® MX Speed (UK).png" alt="">
+				<div class="caption cntr">
+				  <p>K70 RGB MK.2 SE Mechanical Gaming Keyboard</p>
+				  <p><strong> Php 4,570</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/G.SKILL KM360 Tenkeyless Mechanical Keyboard - White.jpg" alt="">
+				<div class="caption cntr">
+				  <p>G.SKILL KM360 Tenkeyless Mechanical Keyboard - White</p>
+				  <p><strong>Php 5,600</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+		  </ul>
+		</div>
+	<div class="row-fluid">
+		  <ul class="thumbnails">
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/K83 Wireless Entertainment Keyboard (SP).png" alt="">
+				<div class="caption cntr">
+				  <p>K83 Wireless Entertainment Keyboard</p>
+				  <p><strong> Php 3,400</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/K95 RGB PLATINUM Mechanical Gaming Keyboard — CHERRY® MX Brown — Black (TH).png" alt="">
+				<div class="caption cntr">
+				  <p>K95 RGB PLATINUM Mechanical Gaming Keyboard</p>
+				  <p><strong> Php 4,000</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/K95 RGB PLATINUM XT Mechanical Gaming Keyboard — CHERRY® MX SPEED.png" alt="">
+				<div class="caption cntr">
+				  <p>K95 RGB PLATINUM XT Mechanical Gaming Keyboard</p>
+				  <p><strong> Php 5,600</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+		  </ul>
+		</div>
+	<div class="row-fluid">
+		  <ul class="thumbnails">
+			<li class="span4">
+			  <div class="thumbnail">
+				<img src="assets/Keyboard/Logitech G512 Carbon Mechanical Keyboard.jpg" alt="">
+				<div class="caption cntr">
+				  <p>Logitech G512 Carbon Mechanical Keyboard</p>
+				  <p><strong>Php 7,800</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span4">
+			  <div class="thumbnail">
+				<a href="product_details.html" class="overlay"></a>
+				<a href="product_details.html"><img src="assets/Keyboard/Razer Blackwidow Lite.jpg" alt=""></a>
+				<div class="caption cntr">
+				  <p>Razer Blackwidow Lite</p>
+				  <p><strong> Php 6,750</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span4">
+			  <div class="thumbnail">
+				<a href="product_details.html" class="overlay"></a>
+				<a href="product_details.html"><img src="assets/Keyboard/Razer Huntsman.jpg" alt=""></a>
+				<div class="caption cntr">
+				  <p>Razer Huntsman</p>
+				  <p><strong> Php 7,950</strong></p>
+				  <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+		  </ul>
+		</div>
+	
+	</div>
+	</div>
+	</div>
+<!-- 
+Clients 
+-->
+<section class="our_client">
+	<hr class="soften"/>
+	<h4 class="title cntr"><span class="text">Manufacturers</span></h4>
+	<hr class="soften"/>
+	<div class="row">
+		<div class="span2">
+			<a href="https://www.razer.com/"><img alt="razer" src="assets/img/logo1.jpg"></a>
+		</div>
+		<div class="span2">
+			<a href="https://www.asus.com/ph/"><img alt="asus" src="assets/img/logo2.jpg"></a>
+		</div>
+		<div class="span2">
+			<a href="https://rog.asus.com/"><img alt="rog" src="assets/img/logo3.jpg"></a>
+		</div>
+		<div class="span2">
+			<a href="https://www.amd.com/en"><img alt="amd" src="assets/img/logo4.jpg"></a>
+		</div>
+		<div class="span2">
+			<a href="https://www.nvidia.com/en-us/"><img alt="nvidia" src="assets/img/logo5.jpg"></a>
+		</div>
+		<div class="span2">
+			<a href="https://www.logitech.com/en-ph"><img alt="logitech" src="assets/img/logo6.jpg"></a>
+		</div>
+	</div>
+</section>
+<!--
+Footer
+-->
+<footer class="footer">
+<div class="row-fluid">
+<div class="span2">
+<h5>Your Account</h5>
+<a href="#">YOUR ACCOUNT</a><br>
+<a href="#">PERSONAL INFORMATION</a><br>
+<a href="#">ADDRESSES</a><br>
+<a href="#">DISCOUNT</a><br>
+<a href="#">ORDER HISTORY</a><br>
+ </div>
+<div class="span2">
+  <h5>Information</h5>
+  <a href="contact.html">CONTACT</a><br>
+<a href="contact.html">SITEMAP</a><br>
+<a href="#">LEGAL NOTICE</a><br>
+<a href="#">TERMS AND CONDITIONS</a><br>
+<a href="about_us.html">ABOUT US</a><br>
+ </div>
+<div class="span2">
+  <h5>Our Services</h5>
+  <a href="index.html">NEW PRODUCTS</a> <br>
+<a href="index.html">TOP SELLERS</a><br>
+<a href="#">SPECIALS</a><br>
+<a href="#">MANUFACTURERS</a><br>
+<a href="#">SUPPLIERS</a> <br/>
+ </div>
+ <div class="span6">
+<h5>COMTECH SHOP INC.</h5>
+<p>Contact info: 867-1456</p>
+<p> Address: 53 Kamagong St. Mutual Homes Subd. Muntinlupa City</p>
+<p>Manila Philippines</p>
+ </div>
+ </div>
+</footer>
+</div><!-- /container -->
+
+<div class="copyright">
+<div class="container">
+	<p class="pull-right">
+		<a href="#"><img src="assets/img/maestro.png" alt="payment"></a>
+		<a href="#"><img src="assets/img/mc.png" alt="payment"></a>
+		<a href="#"><img src="assets/img/pp.png" alt="payment"></a>
+		<a href="#"><img src="assets/img/visa.png" alt="payment"></a>
+		<a href="#"><img src="assets/img/disc.png" alt="payment"></a>
+	</p>
+	Copyright &copy; 2020<br>
+	Ebora, Golosinda, Silo
+</div>
+</div>
+<a href="#" class="gotop"><i class="icon-double-angle-up"></i></a>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.easing-1.3.min.js"></script>
+    <script src="assets/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script src="assets/js/shop.js"></script>
+  </body>
+</html>
